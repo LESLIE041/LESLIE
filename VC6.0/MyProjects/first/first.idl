@@ -1,0 +1,20 @@
+// first.idl : IDL source for first.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (first.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(9961EFDC-80C8-4A8C-B2B3-AC0CCFD15EA6),
+	version(1.0),
+	helpstring("first 1.0 Type Library")
+]
+library FIRSTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

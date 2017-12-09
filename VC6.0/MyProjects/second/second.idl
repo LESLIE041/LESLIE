@@ -1,0 +1,20 @@
+// second.idl : IDL source for second.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (second.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(31F334EE-BA8A-444E-A77F-ECC124B06C25),
+	version(1.0),
+	helpstring("second 1.0 Type Library")
+]
+library SECONDLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};
